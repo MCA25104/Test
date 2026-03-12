@@ -12,7 +12,7 @@ pipeline {
         steps{
           publishHTML([
             allowMissing:true,
-            alwasysLinktoLastBuild:false,
+            alwaysLinktoLastBuild:false,
             keepAll:false,
             reportDir:'.',
             reportFiles:'test.html',
