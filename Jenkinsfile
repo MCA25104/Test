@@ -11,7 +11,7 @@ pipeline {
       stage('Publish'){
         steps{
           publishHTML([
-            allowmissing:true,
+            allowMissing:true,
             alwasysLinktoLastBuild:false,
             keepAll:false,
             reportDir:'.',
